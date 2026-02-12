@@ -60,3 +60,13 @@ This repository is maintained under the personal GitHub account of the original 
 This project is licensed under the MIT License.
 
 See the [LICENSE](https://github.com/mathewisrich/akademdata-open-source/blob/main/LICENSE) file for full details.
+
+## Dual Repo Sync
+
+This template syncs to Psalms23Wave org:
+
+```bash
+git remote add org https://github.com/Psalms23Wave/akademdata-open-source.git
+git push origin main
+git push org main
+```
