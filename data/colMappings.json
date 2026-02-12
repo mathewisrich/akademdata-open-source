@@ -1,0 +1,11 @@
+{
+  "studentId": 1,
+  "name": 2,
+  "age": 3,
+  "gender": 4,
+  "state": 5,
+  "term": 6,
+  "program": 7,
+  "credits": 8,
+  "status": 9
+}

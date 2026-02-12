@@ -1,41 +1,30 @@
 # akademdata-open-source
 
-Open‑source template for building data analytics applications, especially for academic and institutional data systems.
+[![npm](https://img.shields.io/npm/v/akademdata-open-source)](https://www.npmjs.com/package/akademdata-open-source)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
+© 2026 Mathew Sekanjako. MIT License. Psalms23Wave: https://psalms23wave.com
 
-This repository provides a reusable starting point for modern data‑driven applications. It is designed to help developers move quickly from idea to implementation with a structured project layout, sensible defaults, and room to extend for specific institutional needs.  
+Template for Excel analytics apps.
 
 ## Features
 
-- Opinionated project structure suitable for data and analytics applications  
-- Ready to integrate with common web frameworks and APIs  
-- Separation of concerns between data, business logic, and presentation layers  
-- Environment‑based configuration using standard Node tooling  
-- Example placeholders for authentication, dashboards, and reporting modules  
+- **Drag-drop upload/validate/parse**
+- **Search/filter/export CSV/Excel**
+- **Charts/tables**
 
-## Getting Started
+![Dashboard Demo](https://via.placeholder.com/800x400?text=Dashboard+GIF+Placeholder)
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/mathewisrich/akademdata-open-source.git
-   ```
+## Quickstart
 
-2. Install dependencies (adjust to your stack, for example with npm):
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+npx prisma db push
+npm run seed  # Adds 10 fake records
+npm run dev
+```
 
-3. Configure your environment:
-   - Copy `.env.example` to `.env`
-   - Fill in database, API, and other required configuration values
-
-4. Start development (example):
-   ```bash
-   npm run dev
-   ```
-
-Customize the commands above to match the actual tooling and scripts you define in this template.
+Demo: Upload sample.xlsx → see dashboard.
 
 ## Intended Use
 
@@ -47,6 +36,20 @@ This template is intended as a foundation for:
 - Prototypes and production systems that need a structured codebase from day one
 
 Consumers of this template are expected to adapt the stack, modules, and deployment configuration to their own environment.
+
+## Adapt to Your Data
+
+To customize this template for your own data schema:
+
+1.  **Edit `data/colMappings.json`** to match your Excel columns.
+2.  **Modify `prisma/schema.prisma`** to define your data model.
+3.  **Update `lib/parser.ts`** to map the Excel data to your Prisma model.
+
+See [docs/ADAPT.md](docs/ADAPT.md) for a full guide.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Repository Ownership
 
