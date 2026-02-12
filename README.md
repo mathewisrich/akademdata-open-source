@@ -50,7 +50,7 @@ Consumers of this template are expected to adapt the stack, modules, and deploym
 
 ## Repository Ownership
 
-This repository is maintained under the personal GitHub account of the original author and is also associated with the Psalms23Wave organization.
+This repository is maintained under the personal GitHub account of the original author and is also associated with the [Psalms23Wave](https://github.com/Psalms23Wave) organization.
 
 - Company site: https://www.psalms23wave.com
 - Contact: contact@psalms23wave.com
