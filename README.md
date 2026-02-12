@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/akademdata-open-source)](https://www.npmjs.com/package/akademdata-open-source)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-© 2026 Mathew Sekanjako. MIT License. Psalms23Wave: https://psalms23wave.com
+© 2026 Mathew Sekanjako. MIT License. Psalms23Wave: https://www.psalms23wave.com
 
 Template for Excel analytics apps.
 
