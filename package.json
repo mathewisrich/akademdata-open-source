@@ -1,6 +1,6 @@
 {
   "name": "akademdata-open-source",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Mathew Sekanjako contact@psalms23wave.com (https://psalms23wave.com)",
   "description": "Open-source Next.js template for Excel data analytics: upload, validate, query, visualize, export.",
   "repository": "https://github.com/mathewisrich/akademdata-open-source",
