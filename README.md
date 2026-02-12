@@ -18,7 +18,7 @@ This repository provides a reusable starting point for modern data‑driven appl
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/mathewisrich/akademdata-open-source/blob/main/README.md
+   git clone https://github.com/mathewisrich/akademdata-open-source.git
    ```
 
 2. Install dependencies (adjust to your stack, for example with npm):
@@ -59,4 +59,4 @@ This repository is maintained under the personal GitHub account of the original 
 
 This project is licensed under the MIT License.
 
-See the LICENSE file for full details.
+See the [LICENSE](https://github.com/mathewisrich/akademdata-open-source/blob/main/LICENSE) file for full details.
