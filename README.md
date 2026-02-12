@@ -17,7 +17,21 @@ Template for Excel analytics apps.
 
 ## Quickstart
 
+### Option A: Install from NPM
+
+Use this if you want to inspect the core logic or use it as a reference in your `node_modules`.
+
 ```bash
+npm i akademdata-open-source
+```
+
+### Option B: Clone & Run (Recommended)
+
+Use this to build your own app on top of this template.
+
+```bash
+git clone https://github.com/mathewisrich/akademdata-open-source.git
+cd akademdata-open-source
 npm install
 npx prisma db push
 npm run seed  # Adds 10 fake records

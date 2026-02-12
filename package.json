@@ -4,6 +4,10 @@
   "author": "Mathew Sekanjako contact@psalms23wave.com (https://psalms23wave.com)",
   "description": "Open-source Next.js template for Excel data analytics: upload, validate, query, visualize, export.",
   "repository": "https://github.com/mathewisrich/akademdata-open-source",
+  "homepage": "https://github.com/mathewisrich/akademdata-open-source#readme",
+  "bugs": {
+    "url": "https://github.com/mathewisrich/akademdata-open-source/issues"
+  },
   "keywords": [
     "excel",
     "analytics",
