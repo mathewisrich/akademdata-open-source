@@ -71,6 +71,7 @@ This repository is maintained under the personal GitHub account of the original 
 
 - Company site: https://www.psalms23wave.com
 - Contact: contact@psalms23wave.com
+- - Contact: sekanjakomathew3.0@gmail.com
 
 ## License
 
